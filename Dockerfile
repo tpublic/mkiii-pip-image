@@ -3,7 +3,6 @@ FROM docker.bluelight.limited:5000/feingkai/mkiii-apt-image
 
     
 RUN echo "Cheing versions ..... " && \
-        python --version && \
         python3 --version 
 
 RUN echo "Installing pip packages pt 1 ..... " && \
